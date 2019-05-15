@@ -27,13 +27,13 @@
   - The ideal amount of RAM will automatically be selected when you get to this page.
   - Make sure not to increase the RAM into the red section of the slider; try to keep the slider in the green.
 
-  ![img](https://linuxhint.com/wp-content/uploads/2018/05/u1.png)
+  ![img](https://raw.githubusercontent.com/ve280/tutorials/master/images/762fe374bf3f53529eca374ea0ef957a311ad10b37ac65198c604bdfdce49719.png)
 
 
 
 - **Choose the File location and File size**. We will be setting the disk type to VDI and the size to be 40GB. It depends on the free space on your disk. You may apply the default settings.
 
-  ![img](https://linuxhint.com/wp-content/uploads/2018/05/u2.png)
+  ![img](https://raw.githubusercontent.com/ve280/tutorials/master/images/1d3a51165bf99fc160a0e13951804c69b7ea8b4ac69cbf8f830f4d3b14934529.png)
 
 
 
@@ -41,7 +41,7 @@
 
 - **Double click the virtual machine "Ubuntu" and select your Ubuntu ISO**.
 
-![img](https://linuxhint.com/wp-content/uploads/2018/05/u3.png)
+![img](https://raw.githubusercontent.com/ve280/tutorials/master/images/5748390801f48567a0282498f0472c7ce17dcb1e2e89185da7d79a4790c0d0c6.png)
 
 - **Click "Open" then "Start" then "Install Ubuntu"**.
 
@@ -54,7 +54,7 @@
 ### 5. Setting up Ubuntu
 
 - **Select a time zone then "Continue".** Click a section that correlates with your position on the map. You may choose **"Shanghai"**. 
-- **Enter your username, computer's name and password**.  The password does not need to be so long.![img](https://linuxhint.com/wp-content/uploads/2018/05/u10.png)
+- **Enter your username, computer's name and password**.  The password does not need to be so long.![img](https://raw.githubusercontent.com/ve280/tutorials/master/images/ee65ee3813430c3038eeb6761e3f5fb9408eab3527ed3eeb20a58931d0f36d1b.png)
 
 - **Wait for Ubuntu to finish installing.** This process may take anywhere from a couple of minutes to half an hour depending on the speed of your computer.
 - **Restart the virtual machine and log in**. Remember your password.
@@ -63,7 +63,7 @@
 
 ### 6. Enjoy your journey on Linux
 
-![img](https://news-cdn.softpedia.com/images/news2/ubuntu-18-04-lts-bionic-beaver-final-beta-released-available-for-download-now-520571-6.jpg)
+![img](https://raw.githubusercontent.com/ve280/tutorials/master/images/30210583be3453983e46fb1e868f4da143b6e3711ec6f91279b5d663158aafaa.jpg)
 
 
 
