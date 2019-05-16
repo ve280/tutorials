@@ -8,7 +8,7 @@
 
 ### 2. Install VMware Fusion
 
-- **For SJTUers.** SJTU provides free version of VMware at this link: <http://vmap.sjtu.edu.cn>. Login with jAccount, then you can see all the available products. Please choose **VMware Fusion 11** if you are a Mac user. **VMware Workstation 15** is for Windows users.
+- **For SJTUers.** SJTU provides free version of VMware at this link: <http://vmap.sjtu.edu.cn>. Login with jAccount, then you can see all the available products. For Mac users, please choose **VMware Fusion 11**. For Windows users, please choose **VMware Workstation 15**. We'll use VMware Fusion in this tutorial.
 
 ![products](https://raw.githubusercontent.com/ve280/tutorials/master/images/0a751cc112b994f6c6fe7860cc94cd934711d24e558b4222b31610da66de0bf8.png)
 
@@ -20,7 +20,7 @@
 
 ![contact](https://raw.githubusercontent.com/ve280/tutorials/master/images/58d8a51a25bf219ae06d838c77c5fdf0f38c7ff85f23ab41f2c5f172c3e340e5.png)
 
-- **Keep your Serial Number.** Copy your Serial Number to somewhere in order to keep it persistent. You'll need this to activate VMware Fusion on your Mac. Then click "Download".
+- **Keep your Serial Number.** Copy your Serial Number to somewhere in order to make it persistent. You'll need this to activate VMware Fusion on your Mac. Then click "Download".
 
 ![serial](https://raw.githubusercontent.com/ve280/tutorials/master/images/f205db997db3a42b44e0e04538edc88342d6e3a1801d9f5d5e769dfaa71bd9df.png)
 
@@ -28,7 +28,7 @@
 
 ![serial](https://raw.githubusercontent.com/ve280/tutorials/master/images/0404054f7e846808f5b503364bc8d63d02f7562cfd6355a5d3539a5d236eadf8.png)
 
-- **For free trial.** If you do not have a valid SJTU account, you can download a 30-day free-trial version on <https://www.vmware.com>.
+- **For free trial.** If you don't have a valid SJTU account, you can download a 30-day free-trial version on <https://www.vmware.com>.
 
 ![download.png](https://raw.githubusercontent.com/ve280/tutorials/master/images/1c57bc2f293f0f5a810849bdbc037de27a76bbf23939685755f083d5c9e8fce1.png)
 
