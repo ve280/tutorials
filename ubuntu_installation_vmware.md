@@ -6,9 +6,9 @@
 
 ![ubuntu.png](https://raw.githubusercontent.com/ve280/tutorials/master/images/cca039be3668470bbab84a3b8a1d1b6007650906cc5606b6e2663a7261ad9f8c.png)
 
-### 2. Install VMware Fusion
+### 2. Install VMware Workstation/Fusion
 
-- **For SJTUers.** SJTU provides free version of VMware at this link: <http://vmap.sjtu.edu.cn>. Login with jAccount, then you can see all the available products. For Mac users, please choose **VMware Fusion 11**. For Windows users, please choose **VMware Workstation 15**. We'll use VMware Fusion in this tutorial.
+- **For SJTUers.** SJTU provides free version of VMware at this link: <http://vmap.sjtu.edu.cn>. Login with jAccount, then you can see all the available products. For Mac users, please choose **VMware Fusion 11**. For Windows users, please choose **VMware Workstation 15**. We'll use VMware Fusion in this tutorial. But the steps of VMware Workstation should be similar.
 
 ![products](https://raw.githubusercontent.com/ve280/tutorials/master/images/0a751cc112b994f6c6fe7860cc94cd934711d24e558b4222b31610da66de0bf8.png)
 
