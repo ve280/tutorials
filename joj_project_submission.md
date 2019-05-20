@@ -37,7 +37,7 @@
 
 ### 4. View the submission result
 
-- After your submission, the grading results will be automatically shown to you. If your solution is not "Accepted" for any test case, please try to debug and improve your solution, then submit it again. Please notice this is only a pretest with 5 test cases. After the due date of Project One, TAs will run the complete test suite which contains 65 more complicated cases. We strongly encourage you to design your own test suite and take every corner case into consideration. Good Luck!
+- After your submission, the grading results will be automatically displayed. If your solution is not "Accepted" for any test case, please try to debug and improve your solution, then submit it again. You have unlimited chances for submission. Please notice this is only a pretest with 5 test cases. After the due date of Project One, TAs will run the complete test suite which contains 65 more complicated cases. We strongly encourage you to design your own test suite and take every corner case into consideration. Good Luck!
 
 ![6](https://raw.githubusercontent.com/ve280/tutorials/master/images/cfa33285b2caa685eb5dcb23b149dad062905bcdcda2623c9e6aa8494c9095a0.png)
 
