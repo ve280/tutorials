@@ -5,7 +5,7 @@
 - Students can join the VE280 domain on JOJ by visiting the following URL: 
 <https://joj.sjtu.edu.cn/d/ve280_summer_2019/join>
 
-- You may need to log in your jAccount first. Then you'll be prompted for an invitation code. Please check Canvas or Piazza for the code.
+- You may need to log in your jAccount first. Then you'll be prompted for an invitation code. Please check Canvas for the code.
 
 ### 2. Choose a project
 
@@ -40,3 +40,7 @@
 - After your submission, the grading results will be automatically shown to you. If your solution is not "Accepted" for any test case, please try to debug and improve your solution, then submit it again. Please notice this is only a pretest with 5 test cases. After the due date of Project One, TAs will run the complete test suite which contains 65 more complicated cases. We strongly encourage you to design your own test suite and take every corner case into consideration. Good Luck!
 
 ![6](https://raw.githubusercontent.com/ve280/tutorials/master/images/cfa33285b2caa685eb5dcb23b149dad062905bcdcda2623c9e6aa8494c9095a0.png)
+
+### Acknowledgement
+
+- Special thanks to [Yihao Liu](https://github.com/tc-imba) for developing JOJ. The project repository is <https://github.com/joint-online-judge/cb4>.
