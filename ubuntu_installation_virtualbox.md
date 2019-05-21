@@ -2,13 +2,13 @@
 
 ### 1. Downloading Ubuntu image
 
-**Open the Ubuntu website.** Go to the official website <https://www.ubuntu.com/download/desktop>. You can download the Ubuntu disk image (also known as an ISO file) here. The recommended version for VE280 SU2019 is **Ubuntu 18.04.2 LTS**.
+- **Open the Ubuntu website.** Go to the official website <https://www.ubuntu.com/download/desktop>. You can download the Ubuntu disk image (also known as an ISO file) here. The recommended version for VE280 SU2019 is **Ubuntu 18.04.2 LTS**.
 
-![ubuntu.png](images/cca039be3668470bbab84a3b8a1d1b6007650906cc5606b6e2663a7261ad9f8c.png)
+  ![ubuntu.png](images/cca039be3668470bbab84a3b8a1d1b6007650906cc5606b6e2663a7261ad9f8c.png)
 
 ### 2. Install VirtualBox
 
-**Download VirtualBox if you haven't yet done so.** Go to https://www.virtualbox.org/. The tutorial to install VirtualBox for both Windows and Mac is here <https://www.wikihow.com/Install-VirtualBox>
+- **Download VirtualBox if you haven't yet done so.** Go to https://www.virtualbox.org/. The tutorial to install VirtualBox for both Windows and Mac is here <https://www.wikihow.com/Install-VirtualBox>
 
 
 
@@ -41,12 +41,14 @@
 
 - **Double click the virtual machine "Ubuntu" and select your Ubuntu ISO**.
 
-![img](images/5748390801f48567a0282498f0472c7ce17dcb1e2e89185da7d79a4790c0d0c6.png)
+  ![img](images/5748390801f48567a0282498f0472c7ce17dcb1e2e89185da7d79a4790c0d0c6.png)
 
 - **Click "Open", then "Start", then "Install Ubuntu"**.
 
 - **Check both boxes on the "Preparing to install Ubuntu" page then "Continue".** This will ensure that everything Ubuntu needs to run will be installed.
+
 - **Check the "Erase disk and install Ubuntu" box then "Install Now".** This may sound scary, but don't worry—nothing on your computer will be erased.
+
 - **Click Continue when prompted.** This confirms that you understand the virtual machine's virtual drive will be "erased" (there's nothing on it anyway) and begins the Ubuntu installation process.
 
 
@@ -54,8 +56,13 @@
 ### 5. Setting up Ubuntu
 
 - **Select a time zone then "Continue".** Click a section that correlates with your position on the map. You may choose **"Shanghai"**. 
-- **Enter your username, computer's name and password**.![img](images/ee65ee3813430c3038eeb6761e3f5fb9408eab3527ed3eeb20a58931d0f36d1b.png)
+
+- **Enter your username, computer's name and password**.
+
+  ![img](images/ee65ee3813430c3038eeb6761e3f5fb9408eab3527ed3eeb20a58931d0f36d1b.png)
+
 - **Wait for Ubuntu to finish installing.** This process may take anywhere from a couple of minutes to half an hour depending on the performance of your computer.
+
 - **Restart the virtual machine and log in**. Remember your password.
 
 
