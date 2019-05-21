@@ -48,9 +48,11 @@ For this part, you could go to [How to install Ubuntu 18.04 LTS on VirtualBox](h
 
 - **Choose the partition you just created.**  ![dual boot ubuntu windows 10](https://www.pcsuggest.com/wp-content/uploads/2017/09/install_ubuntu_5.png)
 
-- **Create root `/`, swap and home `/home`** Select **free space**. Click `+`. You could reference the following settings. The `swap area` is recommended to be larger than 6 GB. The `/home` is where you put your personal files, thus make sure it's large enough.![Install_Ubuntu_Windows_Dual_Boot_5](https://i1.wp.com/itsfoss.com/wp-content/uploads/2014/03/Install_Ubuntu_Windows_Dual_Boot_5.jpeg?resize=627%2C511&ssl=1)
+- **Create root `/`, swap and home `/home`** Select **free space**. Click `+`. You could reference the following settings. The `swap area` is recommended to be larger than 6 GB. The `/home` is where you put your personal files, thus make sure it's large enough.
 
-  ![dual boot Windows with Linux](https://i1.wp.com/itsfoss.com/wp-content/uploads/2014/03/Install_Ubuntu_Windows_Dual_Boot_6.jpeg?resize=625%2C511&ssl=1)
+![Install_Ubuntu_Windows_Dual_Boot_5](https://i1.wp.com/itsfoss.com/wp-content/uploads/2014/03/Install_Ubuntu_Windows_Dual_Boot_5.jpeg?resize=627%2C511&ssl=1)
+
+![dual boot Windows with Linux](https://i1.wp.com/itsfoss.com/wp-content/uploads/2014/03/Install_Ubuntu_Windows_Dual_Boot_6.jpeg?resize=625%2C511&ssl=1)
 
 ![Install_Ubuntu_Windows_Dual_Boot_7](https://i0.wp.com/itsfoss.com/wp-content/uploads/2014/03/Install_Ubuntu_Windows_Dual_Boot_7.jpeg?resize=625%2C513&ssl=1)
 
@@ -70,8 +72,8 @@ Make sure that everything is correct before you clock `Install Now`.
 
 #### Reference
 
-1. https://www.easyuefi.com/resource/check-windows-is-booted-in-uefi-mode.html
-2. https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#3
-3. https://www.pcsuggest.com/dual-boot-windows-10-and-ubuntu-uefi/
-4. https://www.disk-partition.com/windows-10/windows-10-disk-management-0528.html
-5. https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/
+1. <https://www.easyuefi.com/resource/check-windows-is-booted-in-uefi-mode.html>
+2. <https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#3>
+3. <https://www.pcsuggest.com/dual-boot-windows-10-and-ubuntu-uefi/>
+4. <https://www.disk-partition.com/windows-10/windows-10-disk-management-0528.html>
+5. <https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/>
