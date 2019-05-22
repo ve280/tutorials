@@ -13,7 +13,19 @@ This repository contains the fundamental tutorials for VE280.
 
 To speed up your downloading, you may change your source list to SJTU source by typing the command below.
 
-```sh
-sed -i 's/archive.ubuntu.com/ftp.sjtu.edu.cn/g' /etc/apt/sources.list
+```
+sudo sed -i 's/archive.ubuntu.com/ftp.sjtu.edu.cn/g' /etc/apt/sources.list
+```
+
+Then update the list of available packages before installing any of them.
+
+```
+sudo apt update
+```
+
+Now you can install packages from the SJTU source, for example, `build-essential`, which include `gcc`, `g++`, `make`, etc.
+
+```
+sudo apt install build-essential
 ```
 
