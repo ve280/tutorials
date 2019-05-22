@@ -52,6 +52,8 @@ For this part, you could go to [How to install Ubuntu 18.04 LTS on VirtualBox](h
 
   ![img](images/c6605e7f44cc7f49e7ad6985beb2fa9ca714aaaa465309b6299432d3343379bb.jpg)
 
+- **Turn off Secure Boot.** Find the **Secure Boot** setting, and if possible, set it to **Disabled**. This option is usually in either the **Security** tab, the **Boot** tab, or the **Authentication** tab.
+
 - **Save and reboot**
 
 
@@ -101,3 +103,4 @@ For this part, you could go to [How to install Ubuntu 18.04 LTS on VirtualBox](h
 3. <https://www.pcsuggest.com/dual-boot-windows-10-and-ubuntu-uefi/>
 4. <https://www.disk-partition.com/windows-10/windows-10-disk-management-0528.html>
 5. <https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/>
+6. https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/disabling-secure-boot
