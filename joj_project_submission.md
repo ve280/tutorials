@@ -21,7 +21,11 @@
 
 ### 3. Submit your solution
 
-- Once you've finished the project, please compress your code into a tarball and submit it to JOJ. For Project One, the tarball contains only `p1.cpp`. You can make it with the following command in your terminal: `tar -cvf p1.tar p1.cpp`
+- Once you've finished the project, please compress your code into a tarball and submit it to JOJ. For Project One, the tarball contains only `p1.cpp`. You can make it with the following command in your terminal: 
+
+  ```
+  tar -cvf p1.tar p1.cpp
+  ```
 
 - Open the project page again and click Problem #1: "Project One: Integers!". This is the only problem you need to submit for this project.
 
