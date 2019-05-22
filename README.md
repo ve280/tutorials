@@ -23,7 +23,7 @@ Then update the list of available packages before installing any of them.
 sudo apt update
 ```
 
-Now you can install packages from the SJTU source, for example, `build-essential`, which include `gcc`, `g++`, `make`, etc.
+Now you can install packages from the SJTU source, for example, `build-essential`, which includes `gcc`, `g++`, `make`, etc.
 
 ```
 sudo apt install build-essential
