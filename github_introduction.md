@@ -91,17 +91,18 @@ GitHub is the world's largest community of developers. You can upload your VE280
   
 - **Add a collaborator to your repository.**
 
-  If you are working on a group project, you can go to the repository page and add a collaborator under "Settings" -> "Collaborators". This will send an invitation email to your teammate.
+  If you are working on a group project or would like to invite a TA to view your code, you can go to the repository page and add a collaborator under "Settings" -> "Collaborators". This will send an invitation email to your collaborator.
   
   ![8](images/9b7e8cc381f87efb45f5fc3a59e0a1e3c4a22c08db343e1216287a5d945e1ff7.png)
   
-  After clicking "Accept invitation", your teammate will be able to access all your code and make commits to your repository too.
+  After clicking "Accept invitation", your collaborator will be able to access all your code and make commits to your repository too.
   
   ![9](images/8e699943b81de0ba3a74e94c1eec27d84f2ea8968edae2b45060f04eabbde9e3.png)
   
-  Each time your teammate makes some commit, you can pull the updates into your local project directory, using the following command in your Ubuntu terminal.
+  Each time your collaborator makes some commits, you can pull the updates into your local project directory, using the following commands in your Ubuntu terminal.
   
   ```
+  cd ~/ve280-p1-integers
   git pull origin master
   ```
   
