@@ -102,7 +102,7 @@ GitHub is the world's largest community of developers. You can upload your VE280
 
 ### 4. Contribute to a public repository
 
-- **Fork a repository.** You can contribute to a public repository even if you are not one of its collaborators. Just go to the repository page, e.g. <https://github.com/ve280/ve280> (VE280 course repository), and click "Fork" at the top-right corner. The forked repository will be at `<https://github.com/<username>/ve280>`, e.g. <https://github.com/syqian/ve280>.
+- **Fork a repository.** You can contribute to a public repository even if you are not one of its collaborators. Just go to the repository page, e.g. <https://github.com/ve280/ve280> (VE280 course repository), and click "Fork" at the top-right corner. The forked repository will be at `https://github.com/<username>/ve280`, e.g. <https://github.com/syqian/ve280>.
 
   ![10](images/8b343ad40192cb08ecc1a5076e9da9a9e54d07dda3ab7babbb43d6c396e886e2.png)
 
