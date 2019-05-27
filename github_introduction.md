@@ -99,6 +99,14 @@ GitHub is the world's largest community of developers. You can upload your VE280
   
   ![9](images/8e699943b81de0ba3a74e94c1eec27d84f2ea8968edae2b45060f04eabbde9e3.png)
   
+  Each time your teammate makes some commit, you can pull the updates into your local project directory, using the following command in your Ubuntu terminal.
+  
+  ```
+  git pull origin master
+  ```
+  
+- **Other Git commands.** Besides `git clone`, `git add`, `git commit`, `git push`, `git pull`, other commands you may need to learn in the future include `git status`, `git diff`, `git rm`, `git branch`, `git checkout`, `git merge`, `git log`. If you want to master Git, you may find this [Pro Git](https://git-scm.com/book/en/v2) book helpful.
+  
 
 ### 4. Contribute to a public repository
 
