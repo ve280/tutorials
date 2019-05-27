@@ -75,7 +75,7 @@ GitHub is the world's largest community of developers. You can upload your VE280
   git add p1.cpp
   ```
   
-  Write a message for this change, which will be shown in your commit history.
+  Write a message for this commit, which will be shown in your commit history.
   
   ```
   git commit -m "Finish part 1 Triangle number"
