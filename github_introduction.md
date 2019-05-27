@@ -45,7 +45,6 @@ GitHub is the world's largest community of developers. You can upload your VE280
   ```
   git config --global user.name "Shengyi Qian"  # Replace with your name
   git config --global user.email "syqian@sjtu.edu.cn"  # Replace with your email
-  
   ```
   
   
@@ -55,7 +54,7 @@ GitHub is the world's largest community of developers. You can upload your VE280
 
   ![6](images/3e5bbee0e21c5985a23f184ab4e89d6cf1406743921092360277b86ad26be577.png)
   
-- **Visit the repository page.** The URL of a GitHub repository is <https://github.com/\<username\>/\<repository-name\>>, e.g. <https://github.com/syqian/ve280-p1-integers>. There are also repository links on the GitHub homepage or your profile page.
+- **Visit the repository page.** The URL of a GitHub repository is `https://github.com/<username>/<repository-name>`, e.g. <https://github.com/syqian/ve280-p1-integers>. There are also repository links on the GitHub homepage or your profile page.
 
   ![7](images/3f2b61ebd68a4352d28d3df35b7aac7f7245f426befef78240c7912893060202.png)
   
@@ -103,7 +102,7 @@ GitHub is the world's largest community of developers. You can upload your VE280
 
 ### 4. Contribute to a public repository
 
-- **Fork a repository.** You can contribute to a public repository even if you are not one of its collaborators. Just go to the repository page, e.g. <https://github.com/ve280/ve280> (VE280 course repository), and click "Fork" at the top-right corner. The forked repository will be at <https://github.com/\<username\>/ve280>, e.g. <https://github.com/syqian/ve280>.
+- **Fork a repository.** You can contribute to a public repository even if you are not one of its collaborators. Just go to the repository page, e.g. <https://github.com/ve280/ve280> (VE280 course repository), and click "Fork" at the top-right corner. The forked repository will be at `<https://github.com/<username>/ve280>`, e.g. <https://github.com/syqian/ve280>.
 
   ![10](images/8b343ad40192cb08ecc1a5076e9da9a9e54d07dda3ab7babbb43d6c396e886e2.png)
 
@@ -111,7 +110,7 @@ GitHub is the world's largest community of developers. You can upload your VE280
 
   ![12](images/a48d0cc25c9a8f2ebfc8095abce0aeb8436756bcdd9081a21ca59fbf1f7acafa.png)
   
-- **Update some file.** The most common way to make commits to a forked repository is exactly the same as how you make commits to your own private repositories. You can `git clone` the forked repository to your local machine, make some changes, and use the `git add`, `git commit`, `git push` commands as shown in Section 3 of this tutorial. However, an alternative way is to edit some file directly on the forked repository page. Simply click a file, e.g. `README.md` on <https://github.com/syqian/ve280>, then click "Edit this file".
+- **Update some file.** The most common way to commit to a forked repository is exactly the same as how you commit to your own private repositories. You can `git clone` the forked repository to your local machine, make some changes, and use the `git add`, `git commit`, `git push` commands as shown in Section 3 of this tutorial. However, an alternative way is to edit some file directly on the forked repository page. Simply click a file, e.g. `README.md` on <https://github.com/syqian/ve280>, then click "Edit this file".
 
   ![13](images/6918f41050921fa910f0c94969273b542690b4c134c8bcc706e5385b716f489e.png)
   
