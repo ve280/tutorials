@@ -105,7 +105,7 @@ GitHub is the world's largest community of developers. You can upload your VE280
   git pull origin master
   ```
   
-- **Other Git commands.** Besides `git clone`, `git add`, `git commit`, `git push`, `git pull`, other commands you may need to learn in the future include `git status`, `git diff`, `git rm`, `git branch`, `git checkout`, `git merge`, `git log`. If you want to master Git, you may find this [Pro Git](https://git-scm.com/book/en/v2) book helpful.
+- **Other Git commands.** Besides `git clone`, `git add`, `git commit`, `git push`, `git pull`, other commands you may need to learn in the future include `git status`, `git diff`, `git rm`, `git branch`, `git checkout`, `git merge`, `git log`, `git reset`. If you want to master Git, you may find this [Pro Git](https://git-scm.com/book) book helpful.
   
 
 ### 4. Contribute to a public repository
