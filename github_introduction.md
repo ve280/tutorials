@@ -34,7 +34,7 @@ GitHub is the world's largest community of developers. You can upload your VE280
   
 ### 2. Install Git on your local machine
 
-- **Install Git with default packages.** Following is the Git installation command on Ubuntu. You can also install Git on Windows/Mac.
+- **Install Git with default packages.** Following is the Git installation command on Ubuntu. You can also install Git on Windows/Mac by downloading installers [here](https://git-scm.com/downloads).
 
   ```
   sudo apt install git
