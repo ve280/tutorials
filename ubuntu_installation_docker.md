@@ -57,14 +57,37 @@ First you should choose a Linux Distributions on your favour, the following tuto
 
 The following commands can be ran on any OS with docker installed.
 
-1. Open your favorite terminal.
-2. Run the command `docker pull ubuntu:18.04` to pull an image. (image_name:tag_name, the image names are in the list above, and the tag names can be found in the "tags" on docker hub pages)
-3. run the command `docker images` to verify the download of the image.
-![install_image](images/f239f153462a3e187d4a8d6dfe7fc79d01b54b263266883dc27c0c50defc2949.png)
-4. Run the command `docker run -dit --name ubuntu ubuntu:18.04` to run a ubuntu container. (the name option can be arbitrary, but you can not use the same name for two containers)
+1. Create a plain file named Dockerfile and edit it like:
+
+   ``` dockerfile
+   FROM ubuntu:18.04
+   RUN sed -i 's:^path-exclude=/usr/share/man:#path-exclude=/usr/share/man:' \
+           /etc/dpkg/dpkg.cfg.d/excludes
+   RUN sed -i 's/archive.ubuntu.com/ftp.sjtu.edu.cn/g' /etc/apt/sources.list
+   RUN apt-get update && \
+       apt-get install -y \
+       g++\
+       man \
+       manpages-posix\
+       vim
+   RUN echo "root:root" | chpasswd
+   RUN useradd -rm -d /home/newuser -s /bin/bash -g root -G sudo -u 1000 newuser
+   USER newuser
+   WORKDIR /home/newuser
+   ```
+
+   which is a recipe to build a container with some packages installed and a normal user(newuser) created. Also the password for the root user is just "root".
+
+2. Run the command ``docker build --tag ubuntu280 [path to the directory containing dockerfile]` to build the container.
+
+3. Run the command like `docker run -dit --volume=/Users/zze1/Desktop/VE280:/home/newuser/code  --name ubuntu ubuntu280:latest ` to run the container built and named it ubuntu. `--volume=[absolute path outside]:[path in the docker]` so that can share the content between the devices.
+
+4. Run the command `docker exec -it ubuntu /bin/bash` to enter the container by launching a `bash` process on it
+
 5. Run the command `docker exec -it ubuntu /bin/bash` to enter the container by launching a `bash` process on it.
+
 6. Use Ctrl+D or `exit` to exit the container, and run the command `docker ps` to check the status of running containers.
-![install_container](images/0236569ac78e123a5b262f80b07fee813826d085e41cf6662a912c606fed6862.png)
+  ![docker_exec&exit](images/docker_exec&exit.png)
 
 
 ### 3. Use a Docker Container
