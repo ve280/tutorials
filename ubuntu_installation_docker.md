@@ -78,7 +78,7 @@ The following commands can be ran on any OS with docker installed.
 
    which is a recipe to build a container with some packages installed and a normal user(newuser) created. Also the password for the root user is just "root".
 
-2. Run the command ``docker build --tag ubuntu280 [path to the directory containing dockerfile]` to build the container.
+2. Run the command `docker build --tag ubuntu280 [path to the directory containing dockerfile]` to build the container.
 
 3. Run the command like `docker run -dit --volume=/Users/zze1/Desktop/VE280:/home/newuser/code  --name ubuntu ubuntu280:latest ` to run the container built and named it ubuntu. `--volume=[absolute path outside]:[path in the docker]` so that can share the content between the devices.
 
