@@ -84,9 +84,7 @@ The following commands can be ran on any OS with docker installed.
 
 4. Run the command `docker exec -it ubuntu /bin/bash` to enter the container by launching a `bash` process on it
 
-5. Run the command `docker exec -it ubuntu /bin/bash` to enter the container by launching a `bash` process on it.
-
-6. Use Ctrl+D or `exit` to exit the container, and run the command `docker ps` to check the status of running containers.
+5. Use Ctrl+D or `exit` to exit the container, and run the command `docker ps` to check the status of running containers.
   ![docker_exec&exit](images/docker_exec&exit.png)
 
 
