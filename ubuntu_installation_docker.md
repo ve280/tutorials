@@ -70,7 +70,8 @@ The following commands can be ran on any OS with docker installed.
        man \
        manpages-posix\
        vim\
-       sudo
+       sudo\
+       less
    RUN echo "root:root" | chpasswd
    RUN useradd -rm -d /home/newuser -s /bin/bash -g root -G sudo -u 1000 newuser
    RUN echo "newuser:newuser" | chpasswd
