@@ -72,8 +72,8 @@ The following commands can be ran on any OS with docker installed.
        vim\
        sudo
    RUN echo "root:root" | chpasswd
-   RUN echo "newuser:newuser" | chpasswd
    RUN useradd -rm -d /home/newuser -s /bin/bash -g root -G sudo -u 1000 newuser
+   RUN echo "newuser:newuser" | chpasswd
    USER newuser
    WORKDIR /home/newuser
    ```
