@@ -1,4 +1,4 @@
-## How to install WSL (Windows Subsystem on Linux)
+## How to install WSL (Windows Subsystem for Linux)
 
 ### Installation of WSL
 
