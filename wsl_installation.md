@@ -107,6 +107,8 @@ PermitRootLogin yes
 PasswordAuthentication yes
 ```
 
+Remember to remove `#` if it exists in any of the two lines.
+
 This will enable root login and password login which is usually useful.
 
 Then
