@@ -93,7 +93,7 @@ $ sudo apt purge openssh-server
 $ sudo apt install openssh-server
 ```
 
-You may also need to configure the ssh server in `/etc/ssh/sshd_config` with `vi` or `nano`.
+You may also need to configure the ssh server in `/etc/ssh/sshd_config` with `vi` or `nano` (use `sudo` for root privilege).
 
 Find the lines
 ```
