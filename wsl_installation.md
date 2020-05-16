@@ -47,9 +47,9 @@ $ sudo mv /etc/apt/sources.list /etc/apt/sources.list.backup
 
 Then you can use `vim` or `nano` to edit the file.
 
-For `vim`, type `sudo vim /etc/apt/sources.list`. Then press `i`, and paste the lines **with mouse**. Finally press `Esc` and then `Shift+Z+Z` to save the file.
+For `vim`, type `sudo vim /etc/apt/sources.list`. Then press `i`, and paste the lines **with mouse**. Finally press `Esc` and then `Shift+Z+Z` to save the file and exit the editor.
 
-For `nano`, type `sudo nano /etc/apt/sources.list`. Then paste the lines **with mouse**. Finally press `Ctrl+O` and then `Y` and then `Enter` to save the file.
+For `nano`, type `sudo nano /etc/apt/sources.list`. Then paste the lines **with mouse**. Then press `Ctrl+O` and then `Enter` to save the file. Finally press `Ctrl+X` to exit the editor.
 
 After changing the source, you can install packages very fast. For example, if you want to install `g++`, simply type in
 
