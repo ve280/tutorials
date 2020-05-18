@@ -2,46 +2,47 @@
 
 ### 1. Join JOJ
 
-- Students can join the VE280 domain on JOJ by visiting the following URL: 
-<https://joj.sjtu.edu.cn/d/ve280_summer_2019/join>
+* You may need to log in your jAccount first.
 
-- You may need to log in your jAccount first. Then you'll be prompted for an invitation code. Please check Canvas for the code.
+- Students can join the VE280 domain on JOJ by visiting the following URL: 
+<http://joj.sjtu.edu.cn/d/ve280_summer_2020/join> and type in the invitation code provided in the announcement for lab1.
+
 
 ### 2. Choose a project
 
-- On the "Main" page or "Homework" page, you can see a list of current available projects. For now, please click "Project One: Integers!".
+- On the "Main" page or "Homework" page, you can see a list of homework. Though some homework is visible, the content is disabled. For now, please click "Lab One: Linux and Review of C++".
 
-  ![1](images/865874c959c235a2e4cf5ba00eb53832b823d656c353c8621da712ab8b3bc940.png)
+  ![1](images/jojhomepage.png)
 
 - Please click "Claim Homework" on the project page.
 
-  ![2](images/a50761dd344979ce448443c6e7d9a7397bec1671ac8bf9ea9d154242e50e8538.png)
+  ![JOJClaim](images/JOJClaim.png)
 
 
 
 ### 3. Submit your solution
 
-- Once you've finished the project, please compress your code into a tarball and submit it to JOJ. For Project One, the tarball contains only `p1.cpp`. You can make it with the following command in your terminal: 
+- Once you've finished the lab, please compress your code into a tarball and submit it to JOJ. For Lab One, Exercise One, the tarball contains only `ex1.sh`. You can make it with the following command in your terminal: 
 
   ```
-  tar -cvf p1.tar p1.cpp
+  tar -cvf ex1.tar ex1.sh
   ```
 
-- Open the project page again and click Problem #1: "Project One: Integers!". This is the only problem you need to submit for this project.
+- __Note__ that the problem is not visible till the time it releases. Open the project page again and click Problem #1: "Lab 1 Ex1: Scripting Web Server". 
 
-  ![3](images/e244e1eed9b846cb6cab7a32c43455918493ff3a0636e9fe8e6da217760e9f60.png)
+  ![JOJproblem](images/JOJproblem.png)
 
-- Click "Submit" on the problem page.
+- Click "Submit" on the problem page. (Please just omit the difference between your page and TA's)
 
-  ![4](images/3ac17ca4de6093bec3be9a5bed4f6421ce162f6bdbb368240384a6fa938d5207.png)
+  ![4](images/JOJsubmit.png)
 
-- Select `p1.tar` and click "Submit". Please do not submit `p1.cpp` directly.
+- Select `ex1.tar` and click "Submit". Please do not submit `ex1.sh` directly.
 
-  ![5](images/4ecda5b8e9775f276f288d6726dcf07835304c6db791235190d48ffef6cbf136.png)
+  ![JOJsubmit2](images/JOJsubmit2.png)
 
 ### 4. View the submission result
 
-- After your submission, the grading results will be automatically displayed. If your solution is not "Accepted" for any test case, please try to debug and improve your solution, then submit it again. You have unlimited chances for submission. Please notice this is only a pretest with 5 test cases. After the due date of Project One, TAs will run the complete test suite which contains 65 more complicated cases. We strongly encourage you to design your own test suite and take every corner case into consideration. Good Luck!
+- After your submission, the grading results will be automatically displayed. If your solution is not "Accepted" for any test case, please try to debug and improve your solution, then submit it again. You have unlimited chances for submission. Please notice this is only a pretest with 5 test cases. After the due date of Lab One, TAs will run the complete test suite which contains other cases. We strongly encourage you to design your own test suite and take every corner case into consideration. Good Luck!
 
   ![6](images/cfa33285b2caa685eb5dcb23b149dad062905bcdcda2623c9e6aa8494c9095a0.png)
 
