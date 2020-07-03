@@ -1,6 +1,6 @@
 ## How to install Ubuntu 18.04 LTS alongside with Win10
 
-### 1. Make a backup [Optional]
+### 1. Make a backup \[Optional\]
 
 **It's always wise to make a backup.** Backup your important files in advance in case something unexpected occurs.
 
@@ -14,7 +14,7 @@ For this part, you could go to [How to install Ubuntu 18.04 LTS on VirtualBox](h
 
 ### 3. Prepare a bootable USB
 
-- **In Win10 OS, press win+R and type `msinfo32.exe`** This step is to check if your Win10 is booted in UEFI or Legacy BIOS mode. In the right pane of **System Summary**, you can see the **BIOS Mode** line. 
+- **In Win10 OS, press win+R and type `msinfo32.exe`** This step is to check if your Win10 is booted in UEFI or Legacy BIOS mode. In the right pane of **System Summary**, you can see the **BIOS Mode** line.
 
   ![legacy bios mode](images/8cb6bd7b34f9f97524c9e6f47a3997db10eb313967b1ec16152e7c2626d8825e.png)
 
@@ -28,7 +28,7 @@ For this part, you could go to [How to install Ubuntu 18.04 LTS on VirtualBox](h
 
 
 
-### 4. Partition the disk on Win10 [Optional]
+### 4. Partition the disk on Win10 \[Optional\]
 
 - **If you install Ubuntu on another hard drive, you may skip this step.**
 
@@ -36,12 +36,12 @@ For this part, you could go to [How to install Ubuntu 18.04 LTS on VirtualBox](h
 
   ![Open Disk Management Windows 10](images/6f8d4d3e39acf87a7374aa9d7afa6d4af6dd898d9e05d7b2beea39579fe0048b.jpeg)
 
-- **Shrink the volume to desired size** Select the hard drive partition you want to shrink. The size depends on the free space on your hard drive. At least 10 GB and 20 GB is recommended. 
+- **Shrink the volume to desired size** Select the hard drive partition you want to shrink. The size depends on the free space on your hard drive. At least 10 GB and 20 GB is recommended.
 
   ![img](images/46a655d085fd04aba70c8d028b68c73aacd8343fb4dbb0310b46d92223c94ae4.png)
-  
+
   ![img](images/4d0757840adbad1dcd501d94b097a1ab8b90e499fb9430e716a75c082645ad98.png)
-  
+
   ![img](images/cafaf96827483a44fadfe0f7240f9db9f250eab2ffcde4a2e5bdd8819093abaf.png)
 
 
@@ -60,7 +60,7 @@ For this part, you could go to [How to install Ubuntu 18.04 LTS on VirtualBox](h
 
 ### 6. Install Ubuntu
 
-- **Select `Install Ubuntu`** The procedure is similar to that of [How to install Ubuntu 18.04 LTS on VirtualBox](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_virtualbox.md). 
+- **Select `Install Ubuntu`** The procedure is similar to that of [How to install Ubuntu 18.04 LTS on VirtualBox](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_virtualbox.md).
 
 - **You may skip and continue as well.**
 
@@ -71,7 +71,7 @@ For this part, you could go to [How to install Ubuntu 18.04 LTS on VirtualBox](h
   ![img](images/fffed54f2573b0a6ee807249c3e9d4c81d9bbe1f381cbf63a70ce29413b916b3.png)
 
 - **Choose the partition you just created.**
-  
+
   ![dual boot ubuntu windows 10](images/a4874fc04afc1f72c396472bb15426c435f5185f3f6d1b6fc10fa0df9706748f.png)
 
 - **Create root `/`, swap and home `/home`.** Select **free space**. Click `+`. You could reference the following settings. The `swap area` is recommended to be larger than 6 GB. The `/home` is where you put your personal files, thus make sure it's large enough. Make sure that everything is correct before you click `Install Now`.
