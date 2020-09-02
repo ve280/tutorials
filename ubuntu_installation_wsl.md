@@ -34,24 +34,27 @@
 
   - [Ubuntu 20.04 LTS](https://www.microsoft.com/store/apps/9n6svws3rx71) (latest and recommended, approximately 440+MB)
 
+    
+
 - From the distribution's page, Click the blue “Get”
   button, and then click the blue “Install” button.
   
-- After installing the product, your screen should look something like this.
-
+  After installing the product, your screen should look something like this.
   
-
+  
+  
   ![image-20200901200208081](images/install.png)
-
-  Click the blue “Launch” button to launch Ubuntu from the Microsoft Store.
-
   
-
+  Click the blue “Launch” button to launch Ubuntu from the Microsoft Store.
+  
+  
+  
 - Ubuntu will go through a one-time installation automatically. When
   prompted, enter a username and password. The username and password
   do not need to be the same as your Windows username and password. 
   
   **The username and password are important for navigating your WSL file system and running Linux command-line tools, so don’t forget them!** For the rest of this guide, your WSL username will be referred to as {USER}, and your WSL password will be referred to as {PASSWORD}. Your Windows username will be referred to as {WINUSER}.
+  
   
 
 
