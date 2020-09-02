@@ -133,13 +133,13 @@ For any questions or issues, please contact peterqiu@umich.edu or check out the 
 
 ### Reference
 
-3. What is the Windows Subsystem for Linux?
+1. What is the Windows Subsystem for Linux? 
 
-   https://docs.microsoft.com/en-us/windows/wsl/about
+   https://docs.microsoft.com/en-us/windows/wsl/about 
 
-2. Frequently Asked Questions about Windows Subsystem for Linux
+2. Frequently Asked Questions about Windows Subsystem for Linux 
 
-   https://docs.microsoft.com/en-us/windows/wsl/faq
+   https://docs.microsoft.com/en-us/windows/wsl/faq 
 
 3. The Linux Command Line for Beginner
 
