@@ -86,7 +86,7 @@
 
   To return to your WSL file system, you can run the command `cd ~` or `cd /home/{USER}`
 
-+ For other common commands for the Linux command line, please refer to [the first website in the Reference](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
++ For other common commands for the Linux command line, please refer to related course slides, or [the third website in the Reference](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
 
   To run `sudo` commands, you’ll need to enter your {PASSWORD} when prompted.
 
@@ -133,11 +133,11 @@ For any questions or issues, please contact peterqiu@umich.edu or check out the 
 
 ### Reference
 
-2. What is the Windows Subsystem for Linux?
+3. What is the Windows Subsystem for Linux?
 
    https://docs.microsoft.com/en-us/windows/wsl/about
 
-3. Frequently Asked Questions about Windows Subsystem for Linux
+2. Frequently Asked Questions about Windows Subsystem for Linux
 
    https://docs.microsoft.com/en-us/windows/wsl/faq
 
