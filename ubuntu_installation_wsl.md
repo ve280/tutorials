@@ -2,7 +2,7 @@
 
 ### 1. Install the Windows Subsystem for Linux
 
-- Right click on the `Win` button and choose to open PowerShell as Administrator.
+- Right click on the `Win` button and choose to open *PowerShell* as Administrator.
 
   ![powershell.png](images/powershell.png)
 
@@ -62,22 +62,18 @@
 + After Ubuntu has completed its one-time installation, you can launch
   Ubuntu from several locations. 
 
-  + Ubuntu can be launched from the Microsoft
-    Store as seen previously. 
-  + Ubuntu can be launched by searching for "Ubuntu"
-    in the search bar at the bottom of your screen (or simply by `Win+S` and type in "Ubuntu") and clicking on the
-    application that appears in the results. 
-
+  + Launch Ubuntu from the Microsoft Store as seen previously. 
+  + Search for "Ubuntu" in the search bar at the bottom of your screen (or simply by `Win+S` and type in "Ubuntu") and click on the application that appears in the results. 
+  
   ![ubuntu](images/ubuntu.png)
-
-  + Ubuntu can also be launched by
-    opening PowerShell and running the command `bash` .
-
+  
++ Open the *PowerShell* and call the command `bash` .
+  
 + When you launch Ubuntu, you will start at the directory
-  `~` or `/home/{USER}`.
+  `~`, or `/home/{USER}`.
 
   This directory is located within the WSL file system. **If you choose to**
-  **uninstall WSL, all files within the WSL file system, including all files at this**
+  **uninstall WSL, all files within the WSL file system, or all files at this**
   **directory, will be deleted.**  
 
 + If you wish to access your Windows file system from within Ubuntu, you can change directories by running the command
@@ -130,7 +126,7 @@ Below are related errors and suggested fixes. Refer to the [WSL troubleshooting 
 
 ### Contact
 
-This guide was written by [@PeterQiu0516](https://github.com/PeterQiu0516) on 09/01/2020. 
+This guide was written by [@PeterQiu0516](https://github.com/PeterQiu0516) on 09/02/2020. 
 
 For any questions or issues, please contact peterqiu@umich.edu or check out the resources below.
 
