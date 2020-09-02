@@ -64,12 +64,13 @@
   Ubuntu from several locations. 
 
   + Launch Ubuntu from the Microsoft Store as seen previously. 
+  + Open the *PowerShell* and call the command `bash` .
   + Search for "Ubuntu" in the search bar at the bottom of your screen (or simply call `Win+S` and type in "Ubuntu") and click on the application that appears in the results. 
-  
+
   ![ubuntu](images/ubuntu.png)
+
   
-+ Open the *PowerShell* and call the command `bash` .
-  
+
 + When you launch Ubuntu, you will start at the directory
   `~`, or `/home/{USER}`.
 
