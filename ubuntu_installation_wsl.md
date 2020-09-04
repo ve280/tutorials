@@ -2,7 +2,7 @@
 
 ### 1. Install the Windows Subsystem for Linux
 
-- Right click on the `Win` button and choose to open *PowerShell* as Administrator.
+- Call `Win+X` button and choose to open *PowerShell* as Administrator.
 
   <img src="images/powershell.png" alt="powershell.png" style="zoom:50%;" />
 
