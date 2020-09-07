@@ -1,17 +1,17 @@
 # tutorials
 This repository contains the fundamental tutorials for VE280.
 
-| Title        | Author           | Date  |
-| ------------- |:-------------:| ----- |
-| [An elementary introduction to GitHub](https://github.com/ve280/tutorials/blob/master/github_introduction.md) | [Zian Ke](https://github.com/zianke) | 2019-05-27 |
-| [How to install Linux on Docker](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_docker.md) | [Yihao Liu](https://github.com/tc-imba) | 2019-05-22 |
-| [How to install Ubuntu 18.04 LTS alongside with Win10](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_dual_boot.md) | [Tianyi Ge](https://github.com/TimothyGe) | 2019-05-21 |
-| [Submit your VE280 project solution to Joint Online Judge (JOJ)](https://github.com/ve280/tutorials/blob/master/joj_project_submission.md) | [Zian Ke](https://github.com/zianke) | 2019-05-20 |
-| [How to install Ubuntu 18.04 LTS on VirtualBox](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_virtualbox.md) | [Tianyi Ge](https://github.com/TimothyGe) | 2019-05-15 |
-| [How to install Ubuntu 18.04 LTS on VMware Fusion](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_vmware.md) | [Jiayi Chen](https://github.com/Janecjy), [Zian Ke](https://github.com/zianke) | 2019-05-15 |
-| [How to install Windows Subsystem for Linux (WSL) on Win10](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_wsl.md) | [Changyuan Qiu](https://github.com/PeterQiu0516) | 2020-09-02 |
+## Linux Setup Tutorials
+OS| Title        | Author           | Date  |
+--| ------------- |:-------------:| ----- |
+**Win10 (Recommended)**| [ How to install Windows Subsystem for Linux (WSL) on Win10](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_wsl.md) | [Changyuan Qiu](https://github.com/PeterQiu0516) | 2020-09-02 |
+Win10| [How to install Ubuntu 18.04 LTS alongside with Win10](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_dual_boot.md) | [Tianyi Ge](https://github.com/TimothyGe) | 2019-05-21 |
+Both (Win10 & Mac OS)| [How to install Linux on Docker](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_docker.md) | [Yihao Liu](https://github.com/tc-imba) | 2019-05-22 |
+Both| [How to install Ubuntu 18.04 LTS on VirtualBox](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_virtualbox.md) | [Tianyi Ge](https://github.com/TimothyGe) | 2019-05-15 |
+Both| [How to install Ubuntu 18.04 LTS on VMware Fusion](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_vmware.md) | [Jiayi Chen](https://github.com/Janecjy), [Zian Ke](https://github.com/zianke) | 2019-05-15 |
 
-**Notes**:
+
+**Further Notes**:
 
 To speed up your downloading, you may change your source list to SJTU source by typing the command below.
 
@@ -30,4 +30,13 @@ Now you can install packages from the SJTU source, for example, `build-essential
 ```
 sudo apt install build-essential
 ```
+
+
+## Other Fundamental Tutorials 
+| Title        | Author           | Date  |
+| ------------- |:-------------:| ----- |
+| [An elementary introduction to GitHub](https://github.com/ve280/tutorials/blob/master/github_introduction.md) | [Zian Ke](https://github.com/zianke) | 2019-05-27 |
+| [Submit your VE280 project solution to Joint Online Judge (JOJ)](https://github.com/ve280/tutorials/blob/master/joj_project_submission.md) | [Zian Ke](https://github.com/zianke) | 2019-05-20 |
+
+
 
