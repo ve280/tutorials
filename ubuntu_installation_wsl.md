@@ -1,8 +1,6 @@
 ## [How to install Windows Subsystem for Linux (WSL) on Win10](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_wsl.md)
 
-## Table of Contents
 
-[TOC]
 
 ## Part A - Linux Installation (By Changyuan Qiu)
 
