@@ -1,5 +1,7 @@
 ## [How to install Windows Subsystem for Linux (WSL) on Win10](https://github.com/ve280/tutorials/blob/master/ubuntu_installation_wsl.md)
 
+## Table of Contents
+
 [TOC]
 
 ## Part A - Linux Installation (By Changyuan Qiu)
@@ -95,8 +97,10 @@
 + For other common commands for the Linux command line, please refer to related course slides, or [the third website in the Reference](#reference).
 
   To run `sudo` commands, you’ll need to enter your `<password>` when prompted.
+  
+  
 
-
+---
 
 ### Appendix I: Troubleshooting installation
 
@@ -173,7 +177,7 @@ Below are related errors and suggested fixes. Refer to the [WSL troubleshooting 
 
 
 
-
+---
 
 ### Contact
 
@@ -451,6 +455,8 @@ At this point, you should have **VSCode** configured to code on WSL!
 Try to say Hello to the new world :)
 
 
+
+---
 
 ### Contact
 
