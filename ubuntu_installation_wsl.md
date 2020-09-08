@@ -352,17 +352,17 @@ $ sudo apt install g++ cmake gdb valgrind
 
 Then configure the CLion Toolchains as shown in the image.
 
-![clion_wsl.png](C:/Users/qiuch/Desktop/VE280 TA/tutorials/images/clion_wsl.png)
+![clion_wsl.png](images/clion_wsl.png)
 
 In the **Credentials**, you should enter the information about your ssh server configured.
 
-![clion_wsl_ssh.png](C:/Users/qiuch/Desktop/VE280 TA/tutorials/images/clion_wsl_ssh.png)
+![clion_wsl_ssh.png](images/clion_wsl_ssh.png)
 
 Enter the password you set in the last step.
 
 Furthermore, if you want to use `valgrind`, you should set the valgrind executable to `/usr/bin/valgrind` manually.
 
-![clion_wsl_valgrind.png](C:/Users/qiuch/Desktop/VE280 TA/tutorials/images/clion_wsl_valgrind.png)
+![clion_wsl_valgrind.png](images/clion_wsl_valgrind.png)
 
 
 
