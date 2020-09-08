@@ -250,7 +250,7 @@ From then, you can install packages from your new source.
 For VE280, you may find these packages helpful:
 
 ```bash
-sudo apt install gcc make gdb valgrind
+sudo apt install g++ gcc make gdb valgrind
 ```
 
 
