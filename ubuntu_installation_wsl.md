@@ -250,7 +250,7 @@ From then, you can install packages from your new source.
 For VE280, you may find these packages helpful:
 
 ```bash
-sudo apt install g++ gcc make gdb valgrind
+sudo apt install g++ make cmake gdb valgrind
 ```
 
 
@@ -347,7 +347,7 @@ ssh root@localhost
 You can use remote compiler toolchain in CLion. First, you should ensure `g++`, `cmake`, `gdb`, `valgrind` are installed on WSL:
 
 ```bash
-$ sudo apt install g++ cmake gdb valgrind
+sudo apt install g++ cmake gdb valgrind
 ```
 
 Then configure the CLion Toolchains as shown in the image.
