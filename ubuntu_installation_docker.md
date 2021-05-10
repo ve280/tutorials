@@ -53,17 +53,35 @@ You can find various images of Linux Distributions on
 + fedora: <https://hub.docker.com/_/fedora> (Official Docker builds of Fedora)
 + and many others
 
-First you should choose a Linux Distributions on your favour, the following tutorial will take ubuntu 18.04 as an example. But if you choose other docker images, the procedure will be very similar, you only need to change the image and container names.
+First you should choose a Linux Distributions on your favour, the following tutorial will take ubuntu 20.04 as an example. But if you choose other docker images, the procedure will be very similar, you only need to change the image and container names.
 
-The following commands can be ran on any OS with docker installed.
+The following commands can be ran on any OS with docker installed. 
 
-1. Create a plain file named Dockerfile and edit it like:
+You can download the sample image which is built by the sample Dockerfile by running
+
+```
+docker pull makersmelx/ubuntu280
+```
+
+Skip Step 1 and Step 2 if you would like to use the sample Ubuntu system.
+
+
+
+1. Create a plain text file named `Dockerfile` and edit it with the example below. 
 
    ``` dockerfile
-   FROM ubuntu:18.04
+   #  ===============================================================================  #
+   #  If you do not understand how docker works, please do not modify the below lines  #
+   #  ===============================================================================  #
+   FROM ubuntu:20.04
    RUN sed -i 's:^path-exclude=/usr/share/man:#path-exclude=/usr/share/man:' \
            /etc/dpkg/dpkg.cfg.d/excludes
    RUN sed -i 's/archive.ubuntu.com/ftp.sjtu.edu.cn/g' /etc/apt/sources.list
+   RUN ln -snf /usr/share/zoneinfo/$CONTAINER_TIMEZONE /etc/localtime && echo $CONTAINER_TIMEZONE > /etc/timezone
+   #  ===============================================================================  #
+   #  If you do not understand how docker works, please do not modify the above lines  #
+   #  ===============================================================================  #
+   # Add any package you like here
    RUN apt-get update && \
        apt-get install -y \
        g++\
@@ -71,26 +89,65 @@ The following commands can be ran on any OS with docker installed.
        manpages-posix\
        vim\
        sudo\
-       less
-   RUN echo "root:root" | chpasswd
-   RUN useradd -rm -d /home/newuser -s /bin/bash -g root -G sudo -u 1000 newuser
-   RUN echo "newuser:newuser" | chpasswd
-   USER newuser
-   WORKDIR /home/newuser
+       less\
+       git\
+       make\
+       cmake\
+       zsh
+   # The password for root is: rootpwd
+   RUN echo "root:rootpwd" | chpasswd
+   # Our user is called tiij
+   RUN useradd -rm -d /home/tiij -s /usr/bin/zsh -g root -G sudo -u 1000 tiij
+   # The password for tiij is: nobaidu
+   RUN echo "tiij:nobaidu" | chpasswd
+   USER tiij
+   WORKDIR /home/tiij
    ```
 
-   which is a recipe to build a container with some packages installed and a normal user(newuser) created. Also the password for the root user is just "root".
+   which is a recipe to build an Ubuntu system image. 
 
-2. Run the command `docker build --tag ubuntu280 [path to the directory containing dockerfile]` to build the container. If you're outside China or feels slow when building the container, you may delete the second command("RUN sed -i 's:^path-exclude=...") of the Dockerfile which changes the sourcelist.
+   In this Ubuntu system, some packages are installed. Besides **root** user, we have a normal (non-root or non-admin) user named **tiij**.  The password for the root user is "root_password". The password for **tiij** is "do_not_use_baidu".
 
-3. Run the command like `docker run -dit --volume=/Users/zze1/Desktop/VE280:/home/newuser/code  --name ubuntu ubuntu280:latest ` to run the container built and named it ubuntu. `--volume=[absolute path outside]:[path in the docker]` so that can share the content between the devices.
+   
 
-4. Run the command `docker exec -it ubuntu /bin/bash` to enter the container by launching a `bash` process on it
+2. Run
+
+     ```bash
+     docker build --tag [name of your image] [path to the directory containing dockerfile]
+     ```
+
+     to build the container. For example, under the directory where your Dockerfile is, run `docker build --tag ubuntu280 ./` . Then the image is called `ubuntu280`.
+
+     If you're outside China, you may delete the line `RUN sed -i 's/archive.ubuntu.com/ftp.sjtu.edu.cn/g' /etc/apt/sources.list` so that your container will use official source rather than SJTU mirror.
+
+3. Run the command like 
+
+     ```bash
+     docker run -d -it --volume=[a directory on your host computer]:[a directory in the ubuntu container]  --name [container name] [image for the container]
+     ```
+
+     to run the container built and named it ubuntu. `--volume=[absolute path outside]:[path in the docker]` so that can share the content between the devices.
+
+     For example, `docker run -d -it --volume=/Users/wujiayao/develop:/home/tiij/code --name u280 makersmelx/ubuntu280`.
+
+     Replace the dir as your like. 
+
+4. Run the command
+
+     ```
+     docker exec -it [container name] /bin/bash
+     ```
+
+     to enter the container by launching a `bash` process on it.
+
+     For example, `docker exec -it u280 /bin/bash`
+
+     What happens after we use --volume in Step 3?  Try `ls /home/tiij/code` or the like command to explore the directory in ubuntu container that you type in the --volumes=. See what happens.
 
 5. Use Ctrl+D or `exit` to exit the container, and run the command `docker ps` to check the status of running containers.
-  ![docker_exec&exit](images/docker_exec&exit.png)
+     ![docker_exec&exit](images/docker_exec&exit.jpg)
 
-6. As default, vim is installed to this docker image. Since it may be difficult to use, we can install nano. `su -` together with the password `root` to become a root user and `apt-get install nano` to install. Also, you may install and use `sudo`.
+6. As default, vim is installed to this docker image. Since it may be difficult for you to use, you can install nano. `su -` together with the password `root` to become a root user and `apt-get install nano` to install. Also, you may install and use `sudo`.
 
 ### 3. Use a Docker Container
 
